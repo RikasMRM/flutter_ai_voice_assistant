@@ -130,7 +130,7 @@ class _HomePageState extends State<HomePage> {
                       style: TextStyle(
                         fontFamily: 'Cera Pro',
                         color: Palette.mainFontColor,
-                        fontSize: generatedContent == null ? 25 : 18,
+                        fontSize: generatedContent == null ? 20 : 15,
                       ),
                     ),
                   ),
@@ -157,7 +157,7 @@ class _HomePageState extends State<HomePage> {
                     style: TextStyle(
                       fontFamily: 'Cera Pro',
                       color: Palette.mainFontColor,
-                      fontSize: 20,
+                      fontSize: 15,
                       fontWeight: FontWeight.bold,
                     ),
                   ),

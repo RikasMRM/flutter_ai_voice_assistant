@@ -38,7 +38,7 @@ class FeatureBox extends StatelessWidget {
                 style: const TextStyle(
                   fontFamily: 'Cera Pro',
                   color: Palette.blackColor,
-                  fontSize: 18,
+                  fontSize: 15,
                   fontWeight: FontWeight.bold,
                 ),
               ),
