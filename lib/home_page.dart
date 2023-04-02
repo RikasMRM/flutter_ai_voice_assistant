@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: BounceInDown(
-          child: const Text('Allen'),
+          child: const Text('VoxAI'),
         ),
         leading: const Icon(Icons.menu),
         centerTitle: true,
@@ -88,7 +88,7 @@ class _HomePageState extends State<HomePage> {
               child: Stack(
                 children: [
                   Container(
-                    height: 123,
+                    height: 80,
                     decoration: const BoxDecoration(
                       shape: BoxShape.circle,
                       image: DecorationImage(
