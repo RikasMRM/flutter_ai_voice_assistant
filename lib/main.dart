@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ai_voice_assistant/palette.dart';
-import 'package:flutter_ai_voice_assistant/home_page.dart';
+import 'package:VoxAi/palette.dart';
+import 'package:VoxAi/home_page.dart';
 
 void main() {
   runApp(const MyApp());

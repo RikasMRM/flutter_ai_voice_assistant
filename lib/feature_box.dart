@@ -1,4 +1,4 @@
-import 'package:flutter_ai_voice_assistant/palette.dart';
+import 'package:VoxAi/palette.dart';
 import 'package:flutter/material.dart';
 
 class FeatureBox extends StatelessWidget {

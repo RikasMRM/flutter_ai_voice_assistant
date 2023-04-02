@@ -1,4 +1,4 @@
-name: flutter_ai_voice_assistant
+name: VoxAi
 description: A new Flutter project.
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -16,6 +16,8 @@ dependencies:
   speech_to_text: ^6.1.1
   http: ^0.13.5
   flutter_dotenv: ^5.0.2
+  flutter_tts: ^3.6.3
+  animate_do: ^3.0.2
 
 dev_dependencies:
   flutter_test:

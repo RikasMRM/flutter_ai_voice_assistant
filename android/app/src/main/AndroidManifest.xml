@@ -11,7 +11,7 @@
         </intent>
     </queries>
    <application
-        android:label="flutter_ai_voice_assistant"
+        android:label="VoxAI"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
