@@ -1,16 +1,14 @@
 import 'dart:convert';
 
+import 'package:VoxAi/secrets.dart';
 import 'package:http/http.dart' as http;
-import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 
 class OpenAIService {
   final List<Map<String, String>> messages = [];
 
   Future<String> isArtPromptAPI(String prompt) async {
     try {
-      await dotenv.load();
-      final openAIAPIKey = dotenv.env['OPENAI_API_KEY'];
-
       final res = await http.post(
         Uri.parse('https://api.openai.com/v1/chat/completions'),
         headers: {
@@ -58,9 +56,6 @@ class OpenAIService {
       'content': prompt,
     });
     try {
-      await dotenv.load();
-      final openAIAPIKey = dotenv.env['OPENAI_API_KEY'];
-
       final res = await http.post(
         Uri.parse('https://api.openai.com/v1/chat/completions'),
         headers: {
@@ -96,9 +91,6 @@ class OpenAIService {
       'content': prompt,
     });
     try {
-      await dotenv.load();
-      final openAIAPIKey = dotenv.env['OPENAI_API_KEY'];
-
       final res = await http.post(
         Uri.parse('https://api.openai.com/v1/images/generations'),
         headers: {

@@ -51,5 +51,7 @@
 	<string>Main</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Main</string>
+	<key>NSSpeechSynthesizerUsageDescription</key>
+	<string>Main</string>
 </dict>
 </plist>
