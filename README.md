@@ -1,5 +1,5 @@
 # flutter_ai_voice_assistant
-
+![My Image](app.jpg)
 A new Flutter project.
 
 ## Getting Started
